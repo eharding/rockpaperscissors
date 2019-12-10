@@ -1,0 +1,8 @@
+﻿  RPS.cpp
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(63,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(166,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(188,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(206,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Logan\source\repos\rockpaperscissors\rockpaperscissors\RPS.cpp(214,21): warning C4018: '<=': signed/unsigned mismatch
+  rockpaperscissors.vcxproj -> C:\Users\Logan\source\repos\rockpaperscissors\Debug\rockpaperscissors.exe
