@@ -1,0 +1,12 @@
+﻿  RPS.cpp
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(5,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(64,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(166,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(188,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(206,21): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\Logan\Desktop\rockpaperscissors\rockpaperscissors\RPS.cpp(214,21): warning C4018: '<=': signed/unsigned mismatch
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 348 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  rockpaperscissors.vcxproj -> C:\Users\Logan\Desktop\rockpaperscissors\Release\rockpaperscissors.exe

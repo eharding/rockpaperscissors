@@ -11,6 +11,7 @@ int main() {
 	CheckScore(Score, names, scores);
 	PrintScore(names, scores);
 	SaveScore(names, scores);
+	system("pause");
 	return 0;
 }
 
