@@ -7,7 +7,7 @@ int main() {
 
 	std::vector<std::string>names;
 	std::vector<int>scores;
-	LoadScore(Score, names, scores);
+	LoadScore(names, scores);
 	CheckScore(Score, names, scores);
 	PrintScore(names, scores);
 	SaveScore(names, scores);
@@ -113,7 +113,7 @@ int Menu() {
 	return Score;
 }
 
-void LoadScore(int Score, std::vector<std::string>& names, std::vector<int>& scores) {
+void LoadScore(std::vector<std::string>& names, std::vector<int>& scores) {
 	//standard file reading program to extract the leaderboard names and scores
 
 	//helper variables to put the file contents into local vectors
