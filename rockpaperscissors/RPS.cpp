@@ -21,35 +21,35 @@ bool Evaluate(char Input, std::vector<std::string>& Feedback, int& Lives) {
 	Feedback.clear(); // clear the feedback vector before the match evaluates
 
 	// setting up the player's pick results and putting them in a vector for callback
-	if (Input == 'r') { Feedback.push_back("You chose Rock!\n"); }
-	else if (Input == 's') { Feedback.push_back("You chose Scissors!\n"); }
-	else if (Input == 'p') { Feedback.push_back("You chose Paper!\n"); }
+	if (Input == 'r') { Feedback.push_back("You chose Rock!"); }
+	else if (Input == 's') { Feedback.push_back("You chose Scissors!"); }
+	else if (Input == 'p') { Feedback.push_back("You chose Paper!"); }
 
 	// if the computer guessed rock
 	if (AIGuess == 1) {
 		Feedback.push_back("  the Computer chose Rock!");
 		switch (Input) {
-		case 'p': { Result = true; Feedback.push_back("  You win!"); } break;
-		case 'r': { Feedback.push_back(" Tie!"); } break;
-		case 's': { Feedback.push_back(" You Lose!"); --Lives; } break;
+		case 'p': { Result = true; Feedback.push_back("  You win!\n"); } break;
+		case 'r': { Feedback.push_back("  Tie!\n"); } break;
+		case 's': { Feedback.push_back("  You Lose!\n"); --Lives; } break;
 		}
 	}
 	// if the computer guessed paper
 	else if (AIGuess == 2) {
 		Feedback.push_back("  the Computer chose Paper!");
 		switch (Input) {
-		case 's': { Result = true; Feedback.push_back("  You win!"); } break;
-		case 'p': { Feedback.push_back(" Tie!"); } break;
-		case 'r': { Feedback.push_back(" You Lose!"); --Lives; } break;
+		case 's': { Result = true; Feedback.push_back("  You win!\n"); } break;
+		case 'p': { Feedback.push_back("  Tie!\n"); } break;
+		case 'r': { Feedback.push_back("  You Lose!\n"); --Lives; } break;
 		}
 	}
 	// if the computer guessed scissors
 	else if (AIGuess == 3) {
 		Feedback.push_back("  the Computer chose Scissors!");
 		switch (Input) {
-		case 'r': { Result = true; Feedback.push_back("  You win!");} break;
-		case 's': { Feedback.push_back(" Tie!"); } break;
-		case 'p': { Feedback.push_back(" You Lose!"); --Lives; } break;
+		case 'r': { Result = true; Feedback.push_back("  You win!\n");} break;
+		case 's': { Feedback.push_back("  Tie!\n"); } break;
+		case 'p': { Feedback.push_back("  You Lose!\n"); --Lives; } break;
 		}
 	}
 		// returns true only if the player won
